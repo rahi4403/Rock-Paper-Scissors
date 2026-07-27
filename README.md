@@ -8,8 +8,8 @@ Step forth, brave soul, and declare thy weapon! **Relic Clash** is an interactiv
 
 * **Authentic Medieval Aesthetics:** Styled with Cinzel typography, rich royal gradients, and glowing elemental card hovers.
 * **Ancient Relics:** 
-  * 🪨 **Granite Titan** *(Rock)*
-  * 📜 **Sacred Scroll** *(Paper)*
+  * 🪨 **Stone** *(Rock)*
+  * 📜 **Parchment** *(Paper)*
   * ⚔️ **Twin Blades** *(Scissors)*
 * **Dynamic Battle Logic:** Clean JavaScript state management handling custom victory, defeat, and draw conditions with tailored medieval phrasing.
 * **Responsive Layout:** Optimized using CSS Flexbox and media queries to look sharp on desktop monitors, tablets, and mobile screens alike.
