@@ -23,6 +23,10 @@ Step forth, brave soul, and declare thy weapon! **Relic Clash** is an interactiv
 * **JavaScript (ES6+)** — Game logic, randomized AI choices, and dynamic DOM manipulation
 
 ---
+**A glimpse of the UI**
+<p align="center">
+  <img src="./Screenshot%202026-07-28%20011119.png" alt="Relic Clash UI" width="800"/>
+</p>
 
 ## ⚡ Quick Start
 
