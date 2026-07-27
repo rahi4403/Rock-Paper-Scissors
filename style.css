@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #161515;
+  background-image: radial-gradient(circle at center, #7f7d7b 0%, #292827 45%);
+}
+h1 {
+  margin: auto;
+  height: 100px;
+  width: 2160px;
+  display: block;
+  justify-self: center;
+  font-family: Pirata One;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 20px;
+  color: #cdc4b3;
+  text-shadow:
+    0 20px 8px rgba(0, 0, 0, 0.8),
+    0 0 150px rgba(225, 177, 44, 0.2);
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.choice {
+  height: 400px;
+  width: 500px;
+}
+.choice :hover {
+  cursor: pointer;
+  transition-duration: 1s;
+}
+#stone :hover {
+  box-shadow: 0px 0px 60px #00f0ff;
+}
+#parchment :hover {
+  box-shadow: 0 0 70px #fff836;
+}
+#twin\ blades :hover {
+  box-shadow: 0 0 70px #ff3f34;
+}
+.choice img {
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+}
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: MedievalSharp;
+  margin-top: 100px;
+  gap: 500px;
+}
+.score {
+  height: 100px;
+  width: 140px;
+  background: linear-gradient(180deg, #c6b799 0%, #554424 100%);
+  font-weight: bolder;
+  border-radius: 1rem;
+  text-align: center;
+}
+.scoreboard :hover {
+  opacity: 0.8;
+  color: white;
+  transition-duration: 1s;
+}
+#userscore {
+  width: 140px;
+  box-shadow: -20px 15px 25px 3px rgb(400 130 0 / 0.4);
+}
+#compscore {
+  box-shadow: 20px 15px 25px 3px rgb(400 130 0 / 0.4);
+}
+#userscore,
+#compscore {
+  font-size: 45px;
+}
+.msg {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+}
+#message {
+  background: linear-gradient(135deg, #dbc692 0%, #2e2306 100%);
+  display: inline;
+  padding: 2rem;
+  font-size: 30px;
+  font-family: Cinzel Decorative;
+  font-weight: 501;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 30px rgb(117, 69, 1);
+}
+.msg :hover {
+  opacity: 0.8;
+  color: white;
+  transition-duration: 1s;
+}
